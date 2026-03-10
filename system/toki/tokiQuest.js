@@ -1,22 +1,23 @@
-const quests = [
+const fs = require("fs")
+const path = require("path")
 
-"Bunuh 3 monster hutan",
-"Kumpulkan 5 kayu",
-"Kalahkan slime raksasa",
-"Cari artefak kuno",
-"Buru serigala liar"
+const db = path.join(process.cwd(),"rpg/data/players.json")
 
-]
+function generateQuest(user){
 
-function generateQuest(){
+const data = JSON.parse(fs.readFileSync(db))
 
-const quest = quests[Math.floor(Math.random()*quests.length)]
+const player = data[user]
 
-const reward = Math.floor(Math.random()*200)+50
+if(!player) return null
+
+const lvl = player.level || 1
+
+let difficulty = lvl * 2
 
 return {
-quest,
-reward
+quest:`Bunuh ${difficulty} monster`,
+reward:lvl*100
 }
 
 }
