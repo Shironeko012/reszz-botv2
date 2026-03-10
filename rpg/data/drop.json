@@ -1,0 +1,148 @@
+{
+  "Slime": [
+    { "item": "slimegel", "chance": 60 },
+    { "item": "greenessence", "chance": 15 }
+  ],
+
+  "Zombie": [
+    { "item": "rottenflesh", "chance": 50 },
+    { "item": "bone", "chance": 40 }
+  ],
+
+  "Goblin": [
+    { "item": "goblinear", "chance": 50 },
+    { "item": "coinpouch", "chance": 20 }
+  ],
+
+  "Wolf": [
+    { "item": "wolfpelt", "chance": 50 },
+    { "item": "fang", "chance": 25 },
+    { "item": "fur", "chance": 30 }
+  ],
+
+  "Orc": [
+    { "item": "orcishbone", "chance": 40 },
+    { "item": "leather", "chance": 30 },
+    { "item": "ironore", "chance": 15 }
+  ],
+
+  "Skeleton": [
+    { "item": "bone", "chance": 60 },
+    { "item": "skullfragment", "chance": 20 }
+  ],
+
+  "Harpy": [
+    { "item": "feather", "chance": 50 },
+    { "item": "harpyclaw", "chance": 25 }
+  ],
+
+  "Bandit": [
+    { "item": "coinpouch", "chance": 50 },
+    { "item": "leather", "chance": 30 }
+  ],
+
+  "Berserker": [
+    { "item": "leather", "chance": 35 },
+    { "item": "ironore", "chance": 20 }
+  ],
+
+  "Mummy": [
+    { "item": "ancientcloth", "chance": 40 },
+    { "item": "cursedbandage", "chance": 25 }
+  ],
+
+  "Druid": [
+    { "item": "natureessence", "chance": 35 },
+    { "item": "magicseed", "chance": 25 }
+  ],
+
+  "Siren": [
+    { "item": "seashell", "chance": 40 },
+    { "item": "sirentear", "chance": 10 }
+  ],
+
+  "Troll": [
+    { "item": "trollhide", "chance": 40 },
+    { "item": "gianttooth", "chance": 25 }
+  ],
+
+  "Giant Spider": [
+    { "item": "spidersilk", "chance": 45 },
+    { "item": "venomgland", "chance": 25 }
+  ],
+
+  "Minotaur": [
+    { "item": "hornfragment", "chance": 40 },
+    { "item": "minotaurhide", "chance": 30 }
+  ],
+
+  "Golem": [
+    { "item": "stonecore", "chance": 35 },
+    { "item": "ironore", "chance": 25 }
+  ],
+
+  "Giant": [
+    { "item": "giantbone", "chance": 35 },
+    { "item": "goldore", "chance": 20 }
+  ],
+
+  "Assassin": [
+    { "item": "shadowcloth", "chance": 30 },
+    { "item": "poisonvial", "chance": 25 }
+  ],
+
+  "Elemental": [
+    { "item": "elementcore", "chance": 30 },
+    { "item": "magiccrystal", "chance": 25 }
+  ],
+
+  "Lava Golem": [
+    { "item": "lavacore", "chance": 35 },
+    { "item": "obsidianfragment", "chance": 25 }
+  ],
+
+  "Vampire": [
+    { "item": "bloodessence", "chance": 30 },
+    { "item": "darkfang", "chance": 25 }
+  ],
+
+  "Dragon": [
+    { "item": "dragonscale", "chance": 40 },
+    { "item": "dragonheart", "chance": 5 }
+  ],
+
+  "Lich": [
+    { "item": "magiccrystal", "chance": 30 },
+    { "item": "bone", "chance": 20 }
+  ],
+
+  "Necromancer": [
+    { "item": "shadowcloth", "chance": 30 },
+    { "item": "magicseed", "chance": 20 }
+  ],
+
+  "Warlock": [
+    { "item": "darkfang", "chance": 30 },
+    { "item": "magiccrystal", "chance": 20 }
+  ],
+
+  "Shadow Beast": [
+    { "item": "shadowcloth", "chance": 35 },
+    { "item": "darkfang", "chance": 25 }
+  ],
+
+  "Dark Knight": [
+    { "item": "ironore", "chance": 30 },
+    { "item": "shadowcloth", "chance": 20 }
+  ],
+
+  "Demon Lord": [
+    { "item": "bloodessence", "chance": 35 },
+    { "item": "elementcore", "chance": 20 }
+  ],
+
+  "Demon Hunter": [
+    { "item": "fang", "chance": 35 },
+    { "item": "darkfang", "chance": 20 }
+  ]
+}

@@ -1,0 +1,245 @@
+{
+  "common": [
+    {
+      "name": "Slime",
+      "level": 1,
+      "hp": 20,
+      "attack": 5,
+      "exp": 10,
+      "gold": 15
+    },
+    {
+      "name": "Zombie",
+      "level": 2,
+      "hp": 30,
+      "attack": 8,
+      "exp": 15,
+      "gold": 20
+    },
+    {
+      "name": "Goblin",
+      "level": 2,
+      "hp": 35,
+      "attack": 10,
+      "exp": 20,
+      "gold": 25
+    },
+    {
+      "name": "Wolf",
+      "level": 3,
+      "hp": 50,
+      "attack": 15,
+      "exp": 30,
+      "gold": 40
+    },
+    {
+      "name": "Orc",
+      "level": 4,
+      "hp": 70,
+      "attack": 20,
+      "exp": 50,
+      "gold": 60
+    }
+  ],
+
+  "rare": [
+    {
+      "name": "Skeleton",
+      "level": 3,
+      "hp": 40,
+      "attack": 12,
+      "exp": 25,
+      "gold": 30
+    },
+    {
+      "name": "Harpy",
+      "level": 3,
+      "hp": 30,
+      "attack": 10,
+      "exp": 20,
+      "gold": 25
+    },
+    {
+      "name": "Bandit",
+      "level": 4,
+      "hp": 45,
+      "attack": 15,
+      "exp": 35,
+      "gold": 50
+    },
+    {
+      "name": "Berserker",
+      "level": 4,
+      "hp": 75,
+      "attack": 20,
+      "exp": 50,
+      "gold": 65
+    },
+    {
+      "name": "Mummy",
+      "level": 4,
+      "hp": 60,
+      "attack": 18,
+      "exp": 40,
+      "gold": 50
+    },
+    {
+      "name": "Druid",
+      "level": 4,
+      "hp": 50,
+      "attack": 15,
+      "exp": 35,
+      "gold": 45
+    },
+    {
+      "name": "Siren",
+      "level": 3,
+      "hp": 40,
+      "attack": 12,
+      "exp": 25,
+      "gold": 30
+    },
+    {
+      "name": "Troll",
+      "level": 4,
+      "hp": 80,
+      "attack": 25,
+      "exp": 60,
+      "gold": 70
+    }
+  ],
+
+  "elite": [
+    {
+      "name": "Giant Spider",
+      "level": 5,
+      "hp": 60,
+      "attack": 18,
+      "exp": 40,
+      "gold": 55
+    },
+    {
+      "name": "Minotaur",
+      "level": 5,
+      "hp": 100,
+      "attack": 22,
+      "exp": 75,
+      "gold": 85
+    },
+    {
+      "name": "Golem",
+      "level": 5,
+      "hp": 120,
+      "attack": 20,
+      "exp": 70,
+      "gold": 90
+    },
+    {
+      "name": "Giant",
+      "level": 5,
+      "hp": 150,
+      "attack": 25,
+      "exp": 80,
+      "gold": 100
+    },
+    {
+      "name": "Assassin",
+      "level": 5,
+      "hp": 70,
+      "attack": 25,
+      "exp": 65,
+      "gold": 80
+    },
+    {
+      "name": "Elemental",
+      "level": 5,
+      "hp": 90,
+      "attack": 22,
+      "exp": 70,
+      "gold": 90
+    },
+    {
+      "name": "Lava Golem",
+      "level": 5,
+      "hp": 130,
+      "attack": 25,
+      "exp": 80,
+      "gold": 100
+    },
+    {
+      "name": "Vampire",
+      "level": 5,
+      "hp": 90,
+      "attack": 28,
+      "exp": 80,
+      "gold": 100
+    }
+  ],
+
+  "boss": [
+    {
+      "name": "Dragon",
+      "level": 6,
+      "hp": 200,
+      "attack": 30,
+      "exp": 100,
+      "gold": 200
+    },
+    {
+      "name": "Lich",
+      "level": 6,
+      "hp": 150,
+      "attack": 35,
+      "exp": 120,
+      "gold": 250
+    },
+    {
+      "name": "Necromancer",
+      "level": 6,
+      "hp": 130,
+      "attack": 30,
+      "exp": 110,
+      "gold": 200
+    },
+    {
+      "name": "Warlock",
+      "level": 6,
+      "hp": 120,
+      "attack": 30,
+      "exp": 100,
+      "gold": 150
+    },
+    {
+      "name": "Shadow Beast",
+      "level": 6,
+      "hp": 180,
+      "attack": 35,
+      "exp": 120,
+      "gold": 250
+    },
+    {
+      "name": "Dark Knight",
+      "level": 7,
+      "hp": 250,
+      "attack": 35,
+      "exp": 130,
+      "gold": 300
+    },
+    {
+      "name": "Demon Lord",
+      "level": 7,
+      "hp": 300,
+      "attack": 40,
+      "exp": 150,
+      "gold": 300
+    },
+    {
+      "name": "Demon Hunter",
+      "level": 7,
+      "hp": 200,
+      "attack": 40,
+      "exp": 150,
+      "gold": 300
+    }
+  ]
+}

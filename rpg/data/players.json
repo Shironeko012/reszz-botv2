@@ -1,0 +1,29 @@
+{
+  "41335352467493@lid": {
+    "name": "Reszz",
+    "class": "warrior",
+    "gold": 99999999069,
+    "exp": 100000000059,
+    "level": 9999999999,
+    "hp": 99999999999,
+    "maxHp": 99999999999,
+    "attack": 100000000019,
+    "defense": 99999999999,
+    "power": 99999999999,
+    "stamina": 99,
+    "equipment": {
+      "weapon": "excalibur",
+      "armor": null
+    },
+    "inventory": {
+      "excalibur": 1
+    },
+    "quest": {
+      "item": null,
+      "amount": 0,
+      "rewardGold": 0,
+      "rewardExp": 0
+    },
+    "maxHP": 99999999999
+  }
+}

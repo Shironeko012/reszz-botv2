@@ -1,0 +1,305 @@
+{
+  "resource": {
+
+    "fish": {
+      "name": "Fish",
+      "tier": "common",
+      "price": 20
+    },
+
+    "salmon": {
+      "name": "Salmon",
+      "tier": "common",
+      "price": 35
+    },
+
+    "tuna": {
+      "name": "Tuna",
+      "tier": "rare",
+      "price": 45
+    },
+
+    "pufferfish": {
+      "name": "Pufferfish",
+      "tier": "rare",
+      "price": 50
+    },
+
+    "catfish": {
+      "name": "Catfish",
+      "tier": "common",
+      "price": 25
+    },
+
+    "ironore": {
+      "name": "Iron Ore",
+      "tier": "common",
+      "price": 25
+    },
+
+    "goldore": {
+      "name": "Gold Ore",
+      "tier": "rare",
+      "price": 40
+    },
+
+    "diamond": {
+      "name": "Diamond",
+      "tier": "epic",
+      "price": 100
+    },
+
+    "ruby": {
+      "name": "Ruby",
+      "tier": "epic",
+      "price": 80
+    },
+
+    "sapphire": {
+      "name": "Sapphire",
+      "tier": "rare",
+      "price": 70
+    },
+
+    "emerald": {
+      "name": "Emerald",
+      "tier": "rare",
+      "price": 60
+    },
+
+    "bone": {
+      "name": "Bone",
+      "tier": "common",
+      "price": 10
+    },
+
+    "fur": {
+      "name": "Fur",
+      "tier": "common",
+      "price": 15
+    },
+
+    "leather": {
+      "name": "Leather",
+      "tier": "common",
+      "price": 20
+    },
+
+    "meat": {
+      "name": "Meat",
+      "tier": "common",
+      "price": 30
+    },
+
+    "goblinear": {
+      "name": "Goblin Ear",
+      "tier": "common",
+      "price": 15
+    },
+
+    "slimegel": {
+      "name": "Slime Gel",
+      "tier": "common",
+      "price": 12
+    },
+
+    "greenessence": {
+      "name": "Green Essence",
+      "tier": "rare",
+      "price": 30
+    },
+
+    "rottenflesh": {
+      "name": "Rotten Flesh",
+      "tier": "common",
+      "price": 12
+    },
+
+    "wolfpelt": {
+      "name": "Wolf Pelt",
+      "tier": "common",
+      "price": 25
+    },
+
+    "fang": {
+      "name": "Wolf Fang",
+      "tier": "rare",
+      "price": 35
+    },
+
+    "orcishbone": {
+      "name": "Orc Bone",
+      "tier": "rare",
+      "price": 40
+    },
+
+    "skullfragment": {
+      "name": "Skull Fragment",
+      "tier": "rare",
+      "price": 30
+    },
+
+    "feather": {
+      "name": "Harpy Feather",
+      "tier": "common",
+      "price": 20
+    },
+
+    "harpyclaw": {
+      "name": "Harpy Claw",
+      "tier": "rare",
+      "price": 40
+    },
+
+    "coinpouch": {
+      "name": "Coin Pouch",
+      "tier": "rare",
+      "price": 50
+    },
+
+    "ancientcloth": {
+      "name": "Ancient Cloth",
+      "tier": "rare",
+      "price": 45
+    },
+
+    "cursedbandage": {
+      "name": "Cursed Bandage",
+      "tier": "rare",
+      "price": 50
+    },
+
+    "natureessence": {
+      "name": "Nature Essence",
+      "tier": "rare",
+      "price": 60
+    },
+
+    "magicseed": {
+      "name": "Magic Seed",
+      "tier": "rare",
+      "price": 55
+    },
+
+    "seashell": {
+      "name": "Sea Shell",
+      "tier": "common",
+      "price": 20
+    },
+
+    "sirentear": {
+      "name": "Siren Tear",
+      "tier": "epic",
+      "price": 120
+    },
+
+    "trollhide": {
+      "name": "Troll Hide",
+      "tier": "rare",
+      "price": 60
+    },
+
+    "gianttooth": {
+      "name": "Giant Tooth",
+      "tier": "rare",
+      "price": 70
+    },
+
+    "spidersilk": {
+      "name": "Spider Silk",
+      "tier": "rare",
+      "price": 65
+    },
+
+    "venomgland": {
+      "name": "Venom Gland",
+      "tier": "rare",
+      "price": 70
+    },
+
+    "hornfragment": {
+      "name": "Horn Fragment",
+      "tier": "rare",
+      "price": 60
+    },
+
+    "minotaurhide": {
+      "name": "Minotaur Hide",
+      "tier": "rare",
+      "price": 70
+    },
+
+    "stonecore": {
+      "name": "Stone Core",
+      "tier": "rare",
+      "price": 80
+    },
+
+    "giantbone": {
+      "name": "Giant Bone",
+      "tier": "rare",
+      "price": 85
+    },
+
+    "shadowcloth": {
+      "name": "Shadow Cloth",
+      "tier": "rare",
+      "price": 75
+    },
+
+    "poisonvial": {
+      "name": "Poison Vial",
+      "tier": "rare",
+      "price": 80
+    },
+
+    "elementcore": {
+      "name": "Element Core",
+      "tier": "epic",
+      "price": 120
+    },
+
+    "magiccrystal": {
+      "name": "Magic Crystal",
+      "tier": "epic",
+      "price": 130
+    },
+
+    "lavacore": {
+      "name": "Lava Core",
+      "tier": "epic",
+      "price": 150
+    },
+
+    "obsidianfragment": {
+      "name": "Obsidian Fragment",
+      "tier": "epic",
+      "price": 140
+    },
+
+    "bloodessence": {
+      "name": "Blood Essence",
+      "tier": "epic",
+      "price": 150
+    },
+
+    "darkfang": {
+      "name": "Dark Fang",
+      "tier": "epic",
+      "price": 160
+    },
+
+    "dragonscale": {
+      "name": "Dragon Scale",
+      "tier": "epic",
+      "price": 200
+    },
+
+    "dragonheart": {
+      "name": "Dragon Heart",
+      "tier": "legendary",
+      "price": 500
+    }
+
+  }
+}

@@ -1,0 +1,478 @@
+{
+
+  "potion": {
+
+    "potion": {
+      "name": "Health Potion",
+      "heal": 40,
+      "price": 50
+    },
+    "superpotion": {
+      "name": "Super Potion",
+      "heal": 80,
+      "price": 90
+    },
+    "ultrapotion": {
+      "name": "Ultra Potion",
+      "heal": 120,
+      "price": 130
+    },
+    "maxpotion": {
+      "name": "Max Potion",
+      "heal": 200,
+      "price": 200
+    },
+    "mpotion": {
+      "name": "Mana Potion",
+      "heal": 50,
+      "price": 60
+    },
+    "smpotion": {
+      "name": "Super Mana Potion",
+      "heal": 100,
+      "price": 110
+    },
+    "umpotion": {
+      "name": "Ultra Mana Potion",
+      "heal": 150,
+      "price": 160
+    },
+    "mmpotion": {
+      "name": "Max Mana Potion",
+      "heal": 250,
+      "price": 250
+    }
+
+  },
+
+  "weapon": {
+
+    "sword": {
+      "name": "Sword",
+      "tier": "common",
+      "attack": 5,
+      "price": 100
+    },
+    "axe": {
+      "name": "Axe",
+      "tier": "common",
+      "attack": 7,
+      "price": 120
+    },
+    "bow": {
+      "name": "Bow",
+      "tier": "common",
+      "attack": 6,
+      "price": 110
+    },
+    "staff": {
+      "name": "Staff",
+      "tier": "common",
+      "attack": 4,
+      "price": 90
+    },
+    "dagger": {
+      "name": "Dagger",
+      "tier": "common",
+      "attack": 3,
+      "price": 80
+    },
+    "mace": {
+      "name": "Mace",
+      "tier": "common",
+      "attack": 8,
+      "price": 130
+    },
+    "spear": {
+      "name": "Spear",
+      "tier": "common",
+      "attack": 6,
+      "price": 110
+    },
+    "crossbow": {
+      "name": "Crossbow",
+      "tier": "common",
+      "attack": 7,
+      "price": 120
+    },
+    "wand": {
+      "name": "Wand",
+      "tier": "common",
+      "attack": 5,
+      "price": 100
+    },
+    "black sword": {
+      "name": "Black Sword",
+      "tier": "rare",
+      "attack": 12,
+      "price": 300
+    },
+    "fire axe": {
+      "name": "Fire Axe",
+      "tier": "rare",
+      "attack": 14,
+      "price": 350
+    },
+    "long bow": {
+      "name": "Long Bow",
+      "tier": "rare",
+      "attack": 13,
+      "price": 320
+    },
+    "magic staff": {
+      "name": "Magic Staff",
+      "tier": "rare",
+      "attack": 10,
+      "price": 280
+    },
+    "shadow dagger": {
+      "name": "Shadow Dagger",
+      "tier": "rare",
+      "attack": 9,
+      "price": 250
+    },
+    "war hammer": {
+      "name": "War Hammer",
+      "tier": "rare",
+      "attack": 15,
+      "price": 400
+    },
+    "trident": {
+      "name": "Trident",
+      "tier": "rare",
+      "attack": 13,
+      "price": 320
+    },
+    "sniper crossbow": {
+      "name": "Sniper Crossbow",
+      "tier": "rare",
+      "attack": 14,
+      "price": 350
+    },
+    "arcane wand": {
+      "name": "Arcane Wand",
+      "tier": "rare",
+      "attack": 12,
+      "price": 300
+    },
+    "ancient sword": {
+      "name": "Ancient Sword",
+      "tier": "epic",
+      "attack": 18,
+      "price": 800
+    },
+    "flame axe": {
+      "name": "Flame Axe",
+      "tier": "epic",
+      "attack": 20,
+      "price": 900
+    },
+    "eagle bow": {
+      "name": "Eagle Bow",
+      "tier": "epic",
+      "attack": 19,
+      "price": 850
+    },
+    "grand staff": {
+      "name": "Grand Staff",
+      "tier": "epic",
+      "attack": 17,
+      "price": 750
+    },
+    "shadow blade": {
+      "name": "Shadow Blade",
+      "tier": "epic",
+      "attack": 16,
+      "price": 700
+    },
+    "thunder hammer": {
+      "name": "Thunder Hammer",
+      "tier": "epic",
+      "attack": 20,
+      "price": 900
+    },
+    "sea spear": {
+      "name": "Sea Spear",
+      "tier": "epic",
+      "attack": 18,
+      "price": 800
+    },
+    "heavy crossbow": {
+      "name": "Heavy Crossbow",
+      "tier": "epic",
+      "attack": 19,
+      "price": 850
+    },
+    "sorcerer wand": {
+      "name": "Sorcerer Wand",
+      "tier": "epic",
+      "attack": 17,
+      "price": 750
+    },
+    "excalibur": {
+      "name": "Excalibur",
+      "tier": "legendary",
+      "attack": 20,
+      "price": 1000
+    },
+    "dragonslayer": {
+      "name": "Dragonslayer",
+      "tier": "legendary",
+      "attack": 18,
+      "price": 900
+    },
+    "phoenix bow": {
+      "name": "Phoenix Bow",
+      "tier": "legendary",
+      "attack": 19,
+      "price": 950
+    },
+    "staff of the magi": {
+      "name": "Staff of the Magi",
+      "tier": "legendary",
+      "attack": 17,
+      "price": 850
+    },
+    "shadowfang": {
+      "name": "Shadowfang",
+      "tier": "legendary",
+      "attack": 16,
+      "price": 800
+    },
+    "doomhammer": {
+      "name": "Doomhammer",
+      "tier": "legendary",
+      "attack": 20,
+      "price": 1000
+    },
+    "leviathan trident": {
+      "name": "Leviathan Trident",
+      "tier": "legendary",
+      "attack": 18,
+      "price": 900
+    }
+
+
+  },
+
+  "armor": {
+
+    "armor": {
+      "name": "Armor",
+      "tier": "common",
+      "defense": 5,
+      "price": 120
+    },
+    "black armor": {
+      "name": "Black Armor",
+      "tier": "rare",
+      "defense": 10,
+      "price": 300
+    },
+    "ancient armor": {
+      "name": "Ancient Armor",
+      "tier": "epic",
+      "defense": 15,
+      "price": 800
+    },
+    "exquisite armor": {
+      "name": "Exquisite Armor",
+      "tier": "legendary",
+      "defense": 20,
+      "price": 1000
+    },
+    "helmet": {
+      "name": "Helmet",
+      "tier": "common",
+      "defense": 3,
+      "price": 80
+    },
+    "black helmet": {
+      "name": "Black Helmet",
+      "tier": "rare",
+      "defense": 7,
+      "price": 200
+    },
+    "ancient helmet": {
+      "name": "Ancient Helmet",
+      "tier": "epic",
+      "defense": 10,
+      "price": 500
+    },
+    "exquisite helmet": {
+      "name": "Exquisite Helmet",
+      "tier": "legendary",
+      "defense": 12,
+      "price": 700
+    },
+    "shield": {
+      "name": "Shield",
+      "tier": "common",
+      "defense": 7,
+      "price": 150
+    },
+    "black shield": {
+      "name": "Black Shield",
+      "tier": "rare",
+      "defense": 12,
+      "price": 350
+    },
+    "ancient shield": {
+      "name": "Ancient Shield",
+      "tier": "epic",
+      "defense": 18,
+      "price": 900
+    },
+    "exquisite shield": {
+      "name": "Exquisite Shield",
+      "tier": "legendary",
+      "defense": 25,
+      "price": 1200
+    },
+    "boots": {
+      "name": "Boots",
+      "tier": "common",
+      "defense": 2,
+      "price": 60
+    },
+    "black boots": {
+      "name": "Black Boots",
+      "tier": "rare",
+      "defense": 5,
+      "price": 150
+    },
+    "ancient boots": {
+      "name": "Ancient Boots",
+      "tier": "epic",
+      "defense": 8,
+      "price": 400
+    },
+    "exquisite boots": {
+      "name": "Exquisite Boots",
+      "tier": "legendary",
+      "defense": 10,
+      "price": 600
+    },
+    "gloves": {
+      "name": "Gloves",
+      "tier": "common",
+      "defense": 3,
+      "price": 70
+    },
+    "black gloves": {
+      "name": "Black Gloves",
+      "tier": "rare",
+      "defense": 6,
+      "price": 170
+    },
+    "ancient gloves": {
+      "name": "Ancient Gloves",
+      "tier": "epic",
+      "defense": 9,
+      "price": 450
+    },
+    "exquisite gloves": {
+      "name": "Exquisite Gloves",
+      "tier": "legendary",
+      "defense": 12,
+      "price": 650
+    },
+    "cloak": {
+      "name": "Cloak",
+      "tier": "common",
+      "defense": 4,
+      "price": 90
+    },
+    "black cloak": {
+      "name": "Black Cloak",
+      "tier": "rare",
+      "defense": 8,
+      "price": 200
+    },
+    "ancient cloak": {
+      "name": "Ancient Cloak",
+      "tier": "epic",
+      "defense": 12,
+      "price": 500
+    },
+    "exquisite cloak": {
+      "name": "Exquisite Cloak",
+      "tier": "legendary",
+      "defense": 15,
+      "price": 700
+    },
+    "ring": {
+      "name": "Ring",
+      "tier": "common",
+      "defense": 2,
+      "price": 50
+    },
+    "black ring": {
+      "name": "Black Ring",
+      "tier": "rare",
+      "defense": 5,
+      "price": 120
+    },
+    "ancient ring": {
+      "name": "Ancient Ring",
+      "tier": "epic",
+      "defense": 8,
+      "price": 300
+    },
+    "exquisite ring": {
+      "name": "Exquisite Ring",
+      "tier": "legendary",
+      "defense": 10,
+      "price": 500
+    },
+    "amulet": {
+      "name": "Amulet",
+      "tier": "common",
+      "defense": 3,
+      "price": 100
+    },
+    "black amulet": {
+      "name": "Black Amulet",
+      "tier": "rare",
+      "defense": 7,
+      "price": 250
+    },
+    "ancient amulet": {
+      "name": "Ancient Amulet",
+      "tier": "epic",
+      "defense": 10,
+      "price": 400
+    },
+    "exquisite amulet": {
+      "name": "Exquisite Amulet",
+      "tier": "legendary",
+      "defense": 15,
+      "price": 600
+    },
+    "belt": {
+      "name": "Belt",
+      "tier": "common",
+      "defense": 2,
+      "price": 40
+    },
+    "black belt": {
+      "name": "Black Belt",
+      "tier": "rare",
+      "defense": 5,
+      "price": 100
+    },
+    "ancient belt": {
+      "name": "Ancient Belt",
+      "tier": "epic",
+      "defense": 8,
+      "price": 250
+    },
+    "exquisite belt": {
+      "name": "Exquisite Belt",
+      "tier": "legendary",
+      "defense": 10,
+      "price": 400
+    }
+
+  }
+}

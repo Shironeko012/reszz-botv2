@@ -1,0 +1,22 @@
+{
+  "warrior": {
+    "hp": 120,
+    "attack": 14,
+    "defense": 6
+  },
+  "mage": {
+    "hp": 80,
+    "attack": 18,
+    "defense": 3
+  },
+  "archer": {
+    "hp": 90,
+    "attack": 15,
+    "defense": 4
+  },
+  "tank": {
+    "hp": 150,
+    "attack": 8,
+    "defense": 12
+  }
+}
