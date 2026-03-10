@@ -4,9 +4,9 @@ const cleanTmp = require("../../system/tmpCleaner")
 
 module.exports = {
 
-name:"play",
+name: "play",
 
-async execute(sock,m,args){
+async execute(sock, m, args){
 
 if(!args.length){
 return sock.sendMessage(m.id,{
@@ -32,20 +32,19 @@ const data = await audio(result.webpage_url)
 
 const msg = await sock.sendMessage(m.id,{
 audio:{ url:data.file },
-mimetype:"audio/mp4",
+mimetype:"audio/mpeg",
 ptt:false
 })
 
 selfDestruct(sock,m.id,msg.key)
-
 cleanTmp(data.file)
 
 }catch(err){
 
-console.log(err)
+console.log("PLAY ERROR:",err)
 
 sock.sendMessage(m.id,{
-text:"❌ Lagu tidak ditemukan"
+text:"❌ Lagu tidak ditemukan atau gagal diunduh"
 })
 
 }
