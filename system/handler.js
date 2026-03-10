@@ -3,6 +3,8 @@ const parseMessage = require("./message")
 const { getCommand } = require("./commandLoader")
 const { logError, logPerformance } = require("./logger")
 
+const tokiController = require("./toki/tokiController")
+
 const cooldown = new Map()
 
 module.exports = async function handler(sock, msg){
@@ -13,6 +15,22 @@ const m = parseMessage(msg)
 if(!m) return
 
 const prefix = config.prefix
+
+// ======================
+// AI TOKI AUTO REPLY
+// ======================
+
+if(m.text && m.text.toLowerCase().includes("toki")){
+
+await tokiController(sock,m)
+
+return
+
+}
+
+// ======================
+// COMMAND FILTER
+// ======================
 
 if(!m.text || !m.text.startsWith(prefix)) return
 
