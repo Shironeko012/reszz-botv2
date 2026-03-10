@@ -1,4 +1,4 @@
-const { 
+const {
 default: makeWASocket,
 useMultiFileAuthState,
 DisconnectReason,
@@ -16,8 +16,13 @@ const { loadCommands } = require("./system/commandLoader")
 const { repairJSON } = require("./system/databaseRepair")
 const { logError, logInfo, logSuccess } = require("./system/logger")
 
+// TOKI WORLD ENGINE
+const { advanceWorld } = require("./system/toki/tokiWorldEngine")
+
+process.setMaxListeners(50)
+
 // ==========================
-// KEEP SERVER ALIVE (Fly.io)
+// KEEP SERVER ALIVE
 // ==========================
 
 const PORT = process.env.PORT || 3000
@@ -38,6 +43,26 @@ loadCommands()
 
 logInfo("Checking database...")
 repairJSON("./rpg/data/players.json")
+
+// ==========================
+// WORLD ENGINE (TOKI)
+// ==========================
+
+setInterval(()=>{
+
+try{
+
+const world = advanceWorld()
+
+console.log("🌍 World updated. Day:",world.day)
+
+}catch(err){
+
+logError(err,"worldEngine")
+
+}
+
+},3600000)
 
 // ==========================
 // SESSION CLEANER
@@ -105,8 +130,10 @@ sock.ev.on("connection.update",(update)=>{
 const { connection, lastDisconnect, qr } = update
 
 if(qr){
+
 console.log("📱 Scan QR berikut:")
 qrcode.generate(qr,{small:false})
+
 }
 
 if(connection === "open"){
@@ -127,6 +154,7 @@ if(reason !== DisconnectReason.loggedOut){
 if(!reconnecting){
 
 reconnecting = true
+
 console.log("🔄 Reconnecting...")
 
 setTimeout(startBot,3000)
@@ -136,6 +164,7 @@ setTimeout(startBot,3000)
 }else{
 
 console.log("⚠️ Session logged out")
+
 clearSession()
 
 }
@@ -155,6 +184,7 @@ try{
 if(type !== "notify") return
 
 const msg = messages?.[0]
+
 if(!msg) return
 if(!msg.message) return
 if(msg.key?.fromMe) return
@@ -190,7 +220,9 @@ startBot()
 process.on("SIGINT",()=>{
 
 console.log("\n🛑 Bot dimatikan")
+
 clearSession()
+
 process.exit()
 
 })
@@ -198,7 +230,9 @@ process.exit()
 process.on("SIGTERM",()=>{
 
 console.log("\n🛑 Bot dimatikan")
+
 clearSession()
+
 process.exit()
 
 })
@@ -207,6 +241,7 @@ process.exit()
 process.on("uncaughtException",(err)=>{
 
 console.log("🚨 Fatal Error")
+
 logError(err,"uncaughtException")
 
 })
@@ -215,7 +250,7 @@ logError(err,"uncaughtException")
 process.on("unhandledRejection",(err)=>{
 
 console.log("🚨 Unhandled Promise")
+
 logError(err,"unhandledRejection")
 
 })
-
