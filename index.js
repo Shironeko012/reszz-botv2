@@ -106,7 +106,7 @@ const { connection, lastDisconnect, qr } = update
 
 if(qr){
 console.log("📱 Scan QR berikut:")
-qrcode.generate(qr,{small:true})
+qrcode.generate(qr,{small:false})
 }
 
 if(connection === "open"){
@@ -218,3 +218,4 @@ console.log("🚨 Unhandled Promise")
 logError(err,"unhandledRejection")
 
 })
+
