@@ -1,26 +1,30 @@
 const ytdlp = require("yt-dlp-exec")
+const yts = require("yt-search")
 const fs = require("fs")
 const path = require("path")
 
-const tmp = path.join(__dirname,"../tmp")
+// tmp folder stabil untuk server
+const tmp = path.join(process.cwd(),"tmp")
 
 if(!fs.existsSync(tmp)){
-fs.mkdirSync(tmp)
+fs.mkdirSync(tmp,{recursive:true})
 }
 
 const MAX_SIZE = 16 * 1024 * 1024
 const MAX_DURATION = 900
 
 function randomFile(ext){
-return path.join(tmp, Date.now() + "." + ext)
+return path.join(tmp, Date.now() + "-" + Math.floor(Math.random()*1000) + "." + ext)
 }
 
 function cleanup(file){
 setTimeout(()=>{
+try{
 if(fs.existsSync(file)){
 fs.unlinkSync(file)
 }
-},20000)
+}catch{}
+},30000)
 }
 
 function checkSize(file){
@@ -34,6 +38,28 @@ const stat = fs.statSync(file)
 if(stat.size > MAX_SIZE){
 fs.unlinkSync(file)
 throw new Error("File terlalu besar untuk WhatsApp")
+}
+
+}
+
+/* ======================
+SEARCH YOUTUBE
+====================== */
+
+async function search(query){
+
+const result = await yts(query)
+
+if(!result.videos.length){
+throw new Error("Lagu tidak ditemukan")
+}
+
+const video = result.videos[0]
+
+return {
+title: video.title,
+webpage_url: video.url,
+duration: video.seconds
 }
 
 }
@@ -58,7 +84,7 @@ uploader: info.uploader || "Unknown"
 
 }catch{
 
-throw new Error("Link tidak didukung atau video tidak ditemukan")
+throw new Error("Video tidak ditemukan")
 
 }
 
@@ -78,6 +104,8 @@ if(info.duration > MAX_DURATION){
 throw new Error("Audio terlalu panjang")
 }
 
+try{
+
 await ytdlp(url,{
 extractAudio:true,
 audioFormat:"mp3",
@@ -86,6 +114,12 @@ format:"bestaudio",
 output:file,
 noPlaylist:true
 })
+
+}catch{
+
+throw new Error("Gagal download audio")
+
+}
 
 checkSize(file)
 cleanup(file)
@@ -112,12 +146,20 @@ if(info.duration > MAX_DURATION){
 throw new Error("Video terlalu panjang")
 }
 
+try{
+
 await ytdlp(url,{
 format:"bestvideo[ext=mp4]+bestaudio[ext=m4a]/best",
 mergeOutputFormat:"mp4",
 output:file,
 noPlaylist:true
 })
+
+}catch{
+
+throw new Error("Gagal download video")
+
+}
 
 checkSize(file)
 cleanup(file)
@@ -131,6 +173,7 @@ duration: info.duration
 }
 
 module.exports = {
+search,
 audio,
 video
 }
